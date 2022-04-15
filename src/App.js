@@ -1,16 +1,16 @@
 import { Route, Routes } from 'react-router-dom';
-import Layout from './components/Layout';
-import Home from './components/Home';
+import Layout from './components/Layout/Layout';
+import Home from './components/Home/Home';
 import Javascript from './components/Javascript';
-import JsLibs from './components/Javascript/Libraries';
-import JsFrameworks from './components/Javascript/Frameworks';
-import FrontEnd from './components/Front-End';
-import FeStyleSheets from './components/Front-End/StyleSheets';
-import FeFrameworks from './components/Front-End/Frameworks';
-import BackEnd from './components/Back-End'
-import BeDb from './components/Back-End/Databases'
+import JsLibs from './components/Javascript/Libraries/JsLibs';
+import JsFrameworks from './components/Javascript/Frameworks/JsFrames';
+import FrontEnd from './components/Front-End/FrontEnd';
+import FeStyleSheets from './components/Front-End/StyleSheets/FeStyles';
+import FeFrameworks from './components/Front-End/Frameworks/FeFrames';
+import BackEnd from './components/Back-End/BackEnd'
+import BeDb from './components/Back-End/Databases/BeDb'
 
-import './App.scss';
+import './App.css';
 
 function App() {
   return (

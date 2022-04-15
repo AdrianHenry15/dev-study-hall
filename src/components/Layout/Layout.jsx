@@ -1,5 +1,5 @@
 import React from 'react'
-import './index.css'
+import './layout.css'
 
 const index = () => {
     return (
@@ -10,4 +10,3 @@ const index = () => {
 }
 
 export default index
-
